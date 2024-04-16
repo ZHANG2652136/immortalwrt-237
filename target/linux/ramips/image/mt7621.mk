@@ -1008,7 +1008,7 @@ define Device/jdcloud_re-sp-01b
    IMAGE_SIZE := 32448k
    DEVICE_VENDOR := JDCloud
    DEVICE_MODEL := RE-SP-01B
-   DEVICE_PACKAGES := kmod-fs-ext4 kmod-mt7603e kmod-mt7615d luci-app-mtwifi\
+   DEVICE_PACKAGES := kmod-fs-ext4 \
  	 kmod-sdhci-mt7620 kmod-usb3 automount luci-app-ksmbd luci-app-vsftpd
  endef
  TARGET_DEVICES += jdcloud_re-sp-01b
